@@ -1,0 +1,490 @@
+@font-face {
+    font-family: 'HeirofLightBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/HeirofLightBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+body{
+    color: #333;
+    background-color: #2b2b2b;
+    font-family: 'HeirofLightBold';
+}
+
+header{
+    background-color: rgb(235, 235, 235);
+    height: 500px;
+    position: relative;
+    background-image: url(../images/ss5.jpg);
+    background-size: cover;
+    background-repeat: ;
+}
+
+header:hover{cursor: url(../images/cur.cur),auto}
+
+header .conn{
+    width: 200px;
+}
+
+header .meme{
+    width: 300px;
+    position: absolute;
+    transition: all 1s;
+}
+
+header .conn .love{
+    width: 100px;
+}
+
+
+header .meme:hover{
+        transform: rotate(630deg);
+    }
+
+header .tag{
+        position: fixed;
+        right: 100px;
+        top: 0;
+        width: 150px;
+}
+
+.c1{bottom: 40px; right: 10%;}
+.c2{bottom: 40px; right: 20%;}
+.c3{bottom: 40px; right: 30%;}
+header img{
+    width: 100%;
+}
+
+header ul{
+    position: fixed;
+    right: 100px;
+    top: 310px;
+    width: 150px;
+    text-align: center;
+    font-family: 'HeirofLightBold';
+    font-size: 20px;
+
+}
+header li{
+    margin-top: 5px;
+}
+
+header li:hover{
+    color: rgb(150, 12, 12);
+    font-weight: bold;
+}
+section{
+    width: 50%;
+    margin: 0 auto;
+    font-family: pretenderd;
+}
+
+.s1{
+
+}
+h2{
+    text-align: center;
+    color: #fff;
+    margin: 40px 0;
+    font-family: 'HeirofLightBold';
+    font-size: 30px;
+    margin-top: 100px;
+}
+.con{
+    background-color: #fff;
+    padding: 100px 30px;
+    border-radius: 20px;
+}
+.s1 .box{
+    display: flex;
+    justify-content: center;
+}
+.s1 .me{
+    width: 200px;
+    border-radius: 50%;
+}
+.s1 .me img{
+    width: 100%;
+    
+}
+.s1 .txt{
+    margin: auto 0;
+    margin-left: 30px;
+    font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+}
+.s1 p{
+    margin-top: 10px;
+}
+
+/* //////////// */
+
+.s2{}
+.s2 h2{
+    margin-bottom: 10px;
+}
+.s2 ul{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.s2 ul li{
+    margin: 0 10px;
+    border-radius: 30px;
+    padding: 2px 10px;
+}
+
+.s2 ul li:first-child{
+    background-color: #d94251;
+    color: #fff;
+}
+
+.s2 ul li:hover{cursor: url(../images/cur.cur),auto}
+
+.s2 .con{
+    position: relative;
+    padding: 100px;
+    display: none;
+}
+
+.s2 .ASHLEY{
+    display: block;
+}
+
+.s2 .o{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+}
+
+.s2 .ASHLEY .o{
+    background-color: #063815;
+}
+.s2 .iHerb .o{
+    background-color: #008600;
+}
+.s2 .oo{
+    width: 330px;
+    height: 330px;
+    border-radius: 50%;
+    position: absolute;
+    right: 400px;
+    top: 50px;
+}
+
+.s2 .ASHLEY .oo{
+    background-color: #eb5f2ca6;
+}
+.s2 .iHerb .oo{
+    background-color: #f8ffeea6;
+}
+
+.s2 .ooo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    right: 120px;
+    top: 330px;
+}
+
+.s2 .ASHLEY .ooo{
+    background-color: #eb5f2c;
+}
+.s2 .iHerb .ooo{
+    background-color: #f8ffee;
+}
+
+.s2 .box{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.s2 .txt{}
+
+.s2 .poBox{
+    position: relative;
+}
+.s2 .nemo{
+    position: absolute;
+    background-color: aqua;
+    width: 320px;
+    height: 180px;
+    top: 63px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 20;
+    overflow: hidden;
+}
+
+.s2 .nemo img{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: 5s infinite alternate linear;
+}
+
+.s2 .nemo:hover img{
+    animation-name: down ;
+}
+
+@keyframes down{
+    0%{
+    }
+
+    100%{
+        transform: translateY(-635px);
+    }
+}
+
+.s2 .iHerb .mo{
+    position: absolute;
+    top: 180px;
+    right: 160px;
+    width: 120px;
+    z-index: 70;
+}
+
+
+
+.s2 h3{
+    font-size: 32px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-family: 'HeirofLightBold';
+    border-bottom: #063815 1px dashed;
+}
+.s2 .info .item{
+    display: flex;
+    margin-top: 80px;
+    padding-right: 10px;
+    position: relative;
+}
+
+.s2 .info p{
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.s2 .info .ma{
+    position: absolute;
+    background-color: #063815;
+    width: 15px;
+    height: 15px;
+    display: block;
+    border-radius: 50%;
+    top: 4px;
+    right: 125px;
+}
+.s2 .info .po{
+    position: absolute;
+    top: 4px;
+    right: 0px;
+
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.s2 .ASHLEY .ma{
+    background-color: #063815;
+}
+.s2 .iHerb .ma{
+    background-color: #008600;
+}
+
+.s2 .ASHLEY .po{
+    background-color: #eb5f2c;
+}
+.s2 .iHerb .po{
+    background-color: #f8ffee;
+}
+.s2 img{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 5;
+}
+
+.s2 button{
+    padding: 5px 10px;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-left: 40px;
+    font-size: 20px;
+    color: #063815;
+    font-weight: bold;
+}
+
+.s2 .ASHLEY button{
+    border: 1px solid #eb5f2c;
+}
+.s2 .iHerb button{
+    border: 1px solid #008600;
+}
+
+.s2 button:hover{
+    border: 0;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+color: #fff;
+
+}
+/* //////////////////////////// */
+
+.s3{
+
+}
+.s3 h2{}
+.s3 .con{
+    display: flex;
+    padding: 100px;
+}
+
+.s3 .box{
+    margin: 0 5px;
+}
+.s3 .box1{
+    width: 35%;
+}
+.s3 .box2{
+    width: 45%;
+}
+.s3 .box3{
+    width: 20%;
+}
+.s3 img{
+    width: 100%;
+    display: block;
+}
+
+.s3 img:hover{
+
+}
+
+.view{
+    display: none;
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    z-index: 15;
+}
+
+.btnClose{
+    width: 50px;
+    height: 50px;
+    background-color: unset;
+    border: 0;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.btnClose span{
+    display: block;
+    width: 22px;
+    height: 4px;
+    position: absolute;
+    top:23px;
+    left: 14px;
+    background-color: #fff;
+}
+
+.btnClose span:first-child{
+    transform: rotate(45deg);
+}
+
+.btnClose span:last-child{
+    transform: rotate(-45deg);
+}
+
+.wrapClose{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+figure{
+    width: 900px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+figure img{
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+}
+
+.txtBox{
+    z-index: 5;
+    width: 100%;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    text-align: center;
+}
+
+.s3 .txt{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.599);
+    color: #fff;
+    opacity: 0;
+    transition: all 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.s3 .item{
+    position: relative;
+}
+
+.s3 .item:hover .txt{
+    opacity: 1;
+}
+
+
+/* /////////////////////////// */
+
+.s4{
+    background-image: url(../images/r.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 180px;
+    background-position: 0 100px;
+    font-size: 28px;
+}
+
+.s4 .con{
+    margin-top: 230px;
+    font-family: 'HeirofLightBold';
+    padding-bottom: 80px;
+}
